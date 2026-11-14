@@ -1,0 +1,26 @@
+name: plant_lesion_app
+description: Offline plant lesion segmentation and severity estimation (Paper 1 field demo).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: 0.12.1        # TensorFlow Lite runtime (offline inference)
+  image: 4.10.2                 # decoding, EXIF orientation, resizing
+  image_picker: 1.2.3           # camera / gallery
+  path_provider: 2.1.6          # app folder for the field log
+  share_plus: 13.2.1            # export the field log (CSV + photos) after a session
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/model.tflite

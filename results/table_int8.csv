@@ -1,0 +1,7 @@
+run,fp32_miou,int8_miou,drop,fp32_onnx_MB,int8_MB,ok
+D-dlv3p_mobilenetv2__direct__s0,75.81,75.79,0.02,17.49,5.03,PASS
+D-segformer_b0__direct__s0,77.35,,,,,
+mobilenetv3_small_100__A0_student__s0,73.9,55.2,18.7,14.37,3.9,"drop > 1.5: report it, or use quantisation-aware training"
+mobilenetv3_small_100__A7_full__s0,76.63,58.63,18.0,14.37,3.9,"drop > 1.5: report it, or use quantisation-aware training"
+tf_efficientnet_lite0__A0_student__s0,77.1,77.05,0.05,20.76,5.78,PASS
+tf_efficientnet_lite0__A7_full__s0,76.78,76.73,0.05,20.76,5.78,PASS

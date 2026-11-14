@@ -1,0 +1,22 @@
+model,file,size_MB,config,latency_ms,min_ms,std_ms,peak_mem_MB,note,phone,chip,android,abi
+"MobileNetV3 + A7, dynamic-range",mobilenetv3_small_100__A7_full__s0_dynamic_range_quant.tflite,3.78,CPU 4 threads,57.4,32.49,16.97,78.6211,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"MobileNetV3 + A7, dynamic-range",mobilenetv3_small_100__A7_full__s0_dynamic_range_quant.tflite,3.78,CPU 1 thread,31.39,29.66,1.38,78.457,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"MobileNetV3 + A7, dynamic-range",mobilenetv3_small_100__A7_full__s0_dynamic_range_quant.tflite,3.78,GPU,45.97,20.3,15.01,79.4922,GPU partially,OnePlus CPH2709,SM8635,16,arm64-v8a
+"MobileNetV3 + A7, INT8 w / INT16 act",mobilenetv3_small_100__A7_full__s0_integer_quant_with_int16_act.tflite,4.04,CPU 4 threads,2409.46,1897.42,108.64,53.2422,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"MobileNetV3 + A7, INT8 w / INT16 act",mobilenetv3_small_100__A7_full__s0_integer_quant_with_int16_act.tflite,4.04,CPU 1 thread,2346.07,1707.0,196.64,53.1523,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"MobileNetV3 + A7, INT8 w / INT16 act",mobilenetv3_small_100__A7_full__s0_integer_quant_with_int16_act.tflite,4.04,GPU,2404.88,1953.26,143.81,82.9922,GPU partially,OnePlus CPH2709,SM8635,16,arm64-v8a
+"MobileNetV3 + A7, FP16",mobilenetv3_small_100__A7_full__s0_float16.tflite,7.22,CPU 4 threads,77.45,51.64,24.42,94.9609,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"MobileNetV3 + A7, FP16",mobilenetv3_small_100__A7_full__s0_float16.tflite,7.22,CPU 1 thread,253.19,178.17,30.82,93.6641,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"MobileNetV3 + A7, FP16",mobilenetv3_small_100__A7_full__s0_float16.tflite,7.22,GPU,49.14,25.25,10.54,83.3594,GPU partially,OnePlus CPH2709,SM8635,16,arm64-v8a
+"MobileNetV3 student alone, dynamic-range",mobilenetv3_small_100__A0_student__s0_dynamic_range_quant.tflite,3.78,CPU 4 threads,53.26,28.78,23.03,76.6016,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"MobileNetV3 student alone, dynamic-range",mobilenetv3_small_100__A0_student__s0_dynamic_range_quant.tflite,3.78,CPU 1 thread,61.73,45.83,7.69,77.1719,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"MobileNetV3 student alone, dynamic-range",mobilenetv3_small_100__A0_student__s0_dynamic_range_quant.tflite,3.78,GPU,23.76,18.73,3.56,78.1602,GPU partially,OnePlus CPH2709,SM8635,16,arm64-v8a
+"Lite0 + A7, full INT8",tf_efficientnet_lite0__A7_full__s0_integer_quant.tflite,5.78,CPU 4 threads,18.29,17.8,0.72,63.3672,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"Lite0 + A7, full INT8",tf_efficientnet_lite0__A7_full__s0_integer_quant.tflite,5.78,CPU 1 thread,68.88,37.15,10.8,63.4531,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"Lite0 + A7, full INT8",tf_efficientnet_lite0__A7_full__s0_integer_quant.tflite,5.78,GPU,24.17,16.37,5.17,100.336,GPU completely,OnePlus CPH2709,SM8635,16,arm64-v8a
+"Lite0 + A7, FP16",tf_efficientnet_lite0__A7_full__s0_float16.tflite,10.41,CPU 4 threads,73.42,70.68,3.33,102.957,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"Lite0 + A7, FP16",tf_efficientnet_lite0__A7_full__s0_float16.tflite,10.41,CPU 1 thread,312.47,303.86,2.83,103.441,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"Lite0 + A7, FP16",tf_efficientnet_lite0__A7_full__s0_float16.tflite,10.41,GPU,23.76,16.84,4.17,103.316,GPU completely,OnePlus CPH2709,SM8635,16,arm64-v8a
+"DeepLabV3+ MobileNetV2, full INT8",D-dlv3p_mobilenetv2__direct__s0_integer_quant.tflite,5.03,CPU 4 threads,13.47,11.56,3.94,38.3867,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"DeepLabV3+ MobileNetV2, full INT8",D-dlv3p_mobilenetv2__direct__s0_integer_quant.tflite,5.03,CPU 1 thread,50.17,49.07,0.61,39.4062,,OnePlus CPH2709,SM8635,16,arm64-v8a
+"DeepLabV3+ MobileNetV2, full INT8",D-dlv3p_mobilenetv2__direct__s0_integer_quant.tflite,5.03,GPU,15.84,10.7,5.07,89.8711,GPU completely,OnePlus CPH2709,SM8635,16,arm64-v8a
